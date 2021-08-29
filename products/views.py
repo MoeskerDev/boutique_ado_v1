@@ -24,5 +24,6 @@ def product_detail(request, product_id):
     context = {
         'product': product,
     }
-
+    test = "help me to figure this out"
+    print (test)
     return render(request, 'products/product_detail.html', context)
