@@ -9,7 +9,7 @@ from .forms import OrderForm
 from .models import Order, OrderLineItem
 
 from products.models import Product
-
+from profiles.models import UserProfile
 
 from bag.contexts import bag_contents
 
