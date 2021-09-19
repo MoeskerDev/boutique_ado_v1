@@ -1,3 +1,4 @@
+  
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
@@ -27,6 +28,5 @@ class OrderAdmin(admin.ModelAdmin):
                     'grand_total',)
 
     ordering = ('-date',)
-
 
 admin.site.register(Order, OrderAdmin)
